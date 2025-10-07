@@ -12,5 +12,9 @@ class Program
         {
             Console.WriteLine(pokemon);
         }
+
+        // Wait for user input before closing the console
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 }
