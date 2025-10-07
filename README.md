@@ -27,7 +27,6 @@ problem-sets/
 
 - **.NET**: 8.0 LTS
 - **Language**: C# 12
-- **Testing**: xUnit
 - **IDE**: Visual Studio 2026 Insiders
 
 ## Running Solutions
@@ -46,10 +45,17 @@ dotnet run
 
 ## Progress
 
-| Category | Solved | Easy | Medium | Hard |
-|----------|--------|------|--------|------|
-| Basic | 0 | 0 | 0 | 0 |
-| Intermediate | 0 | 0 | 0 | 0 |
-| Advanced | 0 | 0 | 0 | 0 |
+| Category | Solved |
+|----------|--------|
+| Basic | 0 |
+| Intermediate | 0 |
+| Advanced | 0 |
+
+### Platform Problems
+
+| Platform | Easy | Medium | Hard |
+|----------|------|--------|------|
+| LeetCode | 0 | 0 | 0 |
+| HackerRank | 0 | 0 | 0 |
 
 ---
