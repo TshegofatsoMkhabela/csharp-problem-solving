@@ -47,7 +47,7 @@ dotnet run
 
 | Category | Solved |
 |----------|--------|
-| Basic | 0 |
+| Basic | 3 |
 | Intermediate | 0 |
 | Advanced | 0 |
 
@@ -55,7 +55,7 @@ dotnet run
 
 | Platform | Easy | Medium | Hard |
 |----------|------|--------|------|
-| LeetCode | 0 | 0 | 0 |
+| LeetCode | 3 | 0 | 0 |
 | HackerRank | 0 | 0 | 0 |
 
 ---

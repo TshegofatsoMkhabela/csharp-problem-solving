@@ -22,7 +22,7 @@ int[]? TwoSum(int[] nums, int target)
         // Look for the gap in the rest of the list
         int j = Array.IndexOf(nums, gapToTarget, i + 1);
 
-        // If we found a valid answer, return the indeces
+        // If we found a valid answer , return the indeces
         if (j != -1)
         {
             return [i, j];
