@@ -1,31 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using ContainsDuplicateApp.Solutions;
 
-class Program
+namespace ContainsDuplicateApp
 {
-    static void Main()
+    class Program
     {
-        // Example use case
-        int[] nums = { 1, 2, 1, 2, 3, 4, 5 };
-        Console.WriteLine($"The status of whether the list contains duplicates is {ContainsDuplicate(nums)}");
-    }
-    static bool ContainsDuplicate(int[] nums)
-    {
-        // Convert array to list for easier manipulation
-        List<int> numsList = nums.ToList();
-
-        // Loop through the array, remove the current number from the list, and check if it still exists to detect duplicates.
-        // Stop one element before the end to avoid unnecessary checks
-        for (int i = 0; i<(nums.Length-1); i++)
+        static void Main()
         {
-            int currentNum = nums[i];
-            numsList.Remove(currentNum);
-            if (numsList.Contains(currentNum))
-            {
-                return true;
-            }
+            int[] nums = { 1, 2, 1, 2, 3, 4, 5 };
+
+            // Call List-based solution
+            bool listResult = ContainsDuplicate_List.ContainsDuplicate(nums);
+            Console.WriteLine($"List method: duplicates exist? {listResult}");
+
+            // Call HashSet-based solution
+            bool hashSetResult = ContainsDuplicate_HashSet.ContainsDuplicate(nums);
+            Console.WriteLine($"HashSet method: duplicates exist? {hashSetResult}");
         }
-        return false;
     }
 }
